@@ -84,10 +84,6 @@ ApplicationWindow {
             videoEncodingMode: CameraRecorder.ConstantQualityEncoding
             muted: muteCheck.checked
             onRecorderStateChanged: {
-                function test(){
-                    console.log("test")
-                }
-
                 console.log("state: "+camera.videoRecorder.recorderState)
             }
 
